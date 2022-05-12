@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
@@ -48,9 +47,13 @@ a{
 
 .contact{
     padding: 30px;
-    background-color: black;
     color: #9772FB;
     font-size: 18px;
+    height: 100%;
+}
+
+.info{
+    margin-top: 15px;
     height: 600px;
 }
 
@@ -61,27 +64,34 @@ a{
 
 .column-home {
         width: 50%;
-        height: 100vh;
+        align-items: center;
+        justify-content: center;
     }
 
 .text-container{
-    padding: 20px;
+    padding: 30px;
+    justify-items: center;
+    align-items: center;
 }
+
 .shape-container{
         border: black 1px solid;
         position: absolute;
         height: auto;
         justify-content: center;
+        justify-items: center;
+        align-items: center;
         width: 40%;
+        padding-left: 30px;
+        margin-top: 20px;
     }
-.shape-container a{
-    text-decoration-line: none; 
-}
-.case-study{
-        display: flex;
-        flex-direction: row;
-}
-
+    .shape-container a{
+        text-decoration-line: none; 
+    }
+    .case-study{
+            display: flex;
+            flex-direction: row;
+    }
 
     .rectangle{
         width: 70%;
@@ -103,14 +113,16 @@ a{
 
     .infopic{
         width: 100%;
-        height: 600px;
+        height: 100%;
         object-fit: cover;
     }
     .submit{
         padding: 5px 15px 5px 15px;
         color: black;
         background-color: #9772FB;
+        width: 35%;
     }
+    
 @media only screen and (max-width: 768px){
     .home{
         display: flex;
@@ -124,13 +136,21 @@ a{
         flex-direction: row;
     }
     
-    .shape-container{
-        border: black 1px solid;
-        position: absolute;
-        height: auto;
-        justify-content: center;
-        z-index: 5;
+    .text-container{
+        padding: 20px;
+        justify-items: center;
+        align-items: center;
     }
+
+    .shape-container{
+            border: black 1px solid;
+            position: absolute;
+            height: auto;
+            justify-items: center;
+            width: 85%;
+            padding-left: 30px;
+            margin-top: 0px;
+        }
     .case-study{
         display: flex;
         flex-direction: column;
@@ -146,11 +166,11 @@ a{
         flex-direction: column;
     }
     .infopic{
-        width: 80%;
-        height: auto;
+        width: 100%;
+        height: 100%;
+        padding: 30px;
         object-fit: cover;
     }
-    
 }
 
 @media only screen and (min-width: 769px) and (max-width: 860px){
@@ -186,8 +206,8 @@ a{
         flex-direction: row;
     }
     .infopic{
-        width: 50%;
-        height: auto;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
     }
 }

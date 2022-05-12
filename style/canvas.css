@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas {
+    border: 2px solid turquoise;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    height: 100vh;
+}
