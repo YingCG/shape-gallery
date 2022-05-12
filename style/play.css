@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html,body{
+    width: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #557C55;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.logo{
+    margin-top: 10px;
+    width: 75px;
+    height: auto;
+}
+
+.score{
+    font-size: 3em;
+    margin-bottom: 0.3em;
+}
+
+.header-game{
+    margin: 10px;
+}
+.header-game a{
+    color: white;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    .board{
+        height: 300px;
+        width: 300px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        position: relative;
+
+    }
+  }
+
+  @media only screen and (min-width: 501px) {
+    .board{
+        height: 500px;
+        width: 500px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        position: relative;
+
+    }
+  }
+
+.hole{
+    background-color: burlywood;
+    border-radius: 50%;
+    box-shadow: inset 0 10px 0 7px #614124,
+                inset 0 20px 20px 10px  #8a592e,
+                0 0 5px rgba(0, 0, 0 ,0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.hole .mole{
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    animation: rise 0.3s ease-out;
+}
+
+@keyframes rise {
+    0% {
+        transform: translateX(-50%) translateY(100%);
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+.cursor{
+    height: 110px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-image: url('assets/hammer.png');
+    background-size: 100% 100%;
+    transform: translate(-20%, -20%);
+    transition: transform 0.1s;
+    pointer-events: none;
+}
+
+.cursor.active{
+    transform: translate(-20%, -20%) rotate(-45deg);
+}
+
+#explain{
+    text-align: center;
+}
