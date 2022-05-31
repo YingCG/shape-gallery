@@ -5,7 +5,7 @@ const scoreElement = document.querySelector('.score span')
 let score = 0
 console.log(holes)
 
-const sound = new Audio("/images/smash.mp3")
+const sound = new Audio("../images/smash.mp3")
 function randomAppear() {
     const i = Math.floor(Math.random() * holes.length)
     // console.log(i)
@@ -13,13 +13,13 @@ function randomAppear() {
     const hole = holes[i]
     const img = document.createElement('img')
     img.classList.add('mole')
-    img.src = '/images/mole.png'
+    img.src = '../images/mole.png'
 
     img.addEventListener('click', () => {
         score ++
         sound.play()
         scoreElement.textContent = score
-        img.src = '/images/mole-whacked.png'
+        img.src = '../images/mole-whacked.png'
         clearTimeout(()=> {
             hole.removeChild(img)
             randomAppear()
