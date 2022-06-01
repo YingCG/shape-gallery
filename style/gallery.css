@@ -29,6 +29,10 @@ svg {
     cursor: pointer;
 }
 
+#showImage{
+    max-width: 100%;
+}
+
 @media only screen and (max-width: 768px){
     .gallery{
         margin-top: 0;

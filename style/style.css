@@ -74,8 +74,10 @@ h3{
 
 .text-container{
     padding: 30px;
+    flex: row;
     justify-items: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* .shape-container{
@@ -151,12 +153,18 @@ h3{
     }
     
     .text-container{
+        flex: row;
         padding: 20px;
         justify-items: center;
         align-items: center;
+        flex-wrap: wrap;
+
     }
 
+    
+
     .shape-info{
+            display: block;
             position: absolute;
             height: auto;
             justify-items: center;
@@ -199,6 +207,7 @@ h3{
     }
     
     .shape-info{
+        display: block;
         height: auto;
         justify-content: center;
         z-index: 5;
