@@ -26,10 +26,11 @@
                     A Place For Creativity, Curiosity, And Ingenuity. 
                 </h1>
                 <div id="showData"></div>
+                <div id="showImage"></div>
                 <div class="shape-info">
-                    <div class="circle" id="tech" onclick="showTech()" >Technology</div>
-                    <div class="circle" id="art" onclick="showArt()" >Art</div>
-                    <div class="circle" id="human" onclick="showHuman()" >Human</div>
+                    <div class="circle" id="tech" onclick="showText()" >Technology</div>
+                    <div class="circle" id="art" onclick="showText()" >Art</div>
+                    <div class="circle" id="human" onclick="showText()" >Human</div>
                     <!-- <div class="rectangle" id="rectangle-top" ></div> -->
                         <!-- <div class="circle" id="tech" onclick="fetchShowData()" >Technology</div>
                         <div class="circle" id="art" onclick="fetchShowData()" >Art</div>
@@ -38,8 +39,8 @@
             </div>
         </div>
         <div class="column-home">
-            <div class="gallery">
-                <svg class="shape-gallery" viewbox="0 0 383.2 514.2" >
+            <div class="gallery " id="galleryImg" onclick="fetchInfo()">
+                <svg class="shape-gallery" viewbox="0 0 383.2 514.2"  >
                 <style type="text/css">
                     .st0{fill:#263B96;}
                     .st1{fill:#EFD9EA;}

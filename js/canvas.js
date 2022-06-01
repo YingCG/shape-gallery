@@ -48,9 +48,9 @@ window.addEventListener('load', () => {
         ctx.moveTo(e.clientX, e.clientY)
     }
 
-    function rubber(e) {
-        if(painting) return
-    }
+    // function rubber(e) {
+    //     if(painting) return
+    // }
 
     //Event Listeners
     canvas.addEventListener('mousedown', startPosition)

@@ -14,11 +14,25 @@ svg {
 .st0:hover{
     fill: #0B4619;
 }
+.st4:hover{
+    fill: #0B4619;
+}
+
+.gallery{
+    margin-top: 0;
+    padding: 2rem;
+    /* z-index: -1; */
+}
+
+.shape-gallery{
+    pointer-events: auto;
+    cursor: pointer;
+}
 
 @media only screen and (max-width: 768px){
     .gallery{
         margin-top: 0;
-        padding: 0;
+        padding: 1rem;
         /* z-index: -1; */
     }
     
@@ -44,7 +58,7 @@ svg {
 @media only screen and (min-width: 861){
     .gallery{
         margin-top: -60px;
-        padding: 8rem;
+        padding: 10rem;
         /* z-index: -1; */
     }
     

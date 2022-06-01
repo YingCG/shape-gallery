@@ -1,33 +1,32 @@
 
 function showTech(){
     let text = document.getElementById('showData')
-    text.innerHTML = 'Technology is most often used to improve efficiency, it has made art more accessible. Artist can teach us about how to make technology more human.'
+    text.innerHTML = '<h3> Technology is most often used to improve efficiency, it has made art more accessible. Artist can teach us about how to make technology more human. </h3>'
 }
 function showArt(){
     let text = document.getElementById('showData')
-    text.innerHTML = 'Artists explore the emotional and social elements, with innovative thinking, artist can now make art in digital or on paper.'
+    text.innerHTML = '<h3> Artists explore the emotional and social elements, with innovative thinking, artist can now make art in digital or on paper. </h3>'
 }
 function showHuman(){
     let text = document.getElementById('showData')
-    text.innerHTML = 'The ability to imagine and to take that imagination and make it into reality is one of the things that is really distinctive about humans.'
+    text.innerHTML = '<h3> The ability to imagine and to take that imagination and make it into reality is one of the things that is really distinctive about humans. </h3>'
 }
 
-// document.getElementById("tech").addEventListener("click", showText(e));
-// document.getElementById("art").addEventListener("click", showText(e));
-// document.getElementById("human").addEventListener("click", showText(e));
+document.getElementById("tech").addEventListener("click", showText(event));
+document.getElementById("art").addEventListener("click", showText(event));
+document.getElementById("human").addEventListener("click", showText(event));
 
-// function showText(){
-//     let text = document.getElementById("showData")
-//     let target = e.target
-//     if(target.id === 'tech'){
-//         text.innerHTML = 'Technology is most often used to improve efficiency, it has made art more accessible. Artist can teach us about how to make technology more human.'
-//     } else if (target.id === 'art'){
-//         text.innerHTML = 'Artists explore the emotional and social elements, with innovative thinking, artist can now make art in digital or on paper.'
-//     } else if (target.id === 'human'){
-//         text.innerHTML = 'The ability to imagine and to take that imagination and make it into reality is one of the things that is really distinctive about humans.'
-//     }
-// }
-
+function showText(){
+    let text = document.getElementById("showData")
+    let target = event.target
+    if(target.id === 'tech'){
+        text.innerHTML = 'Technology is most often used to improve efficiency, it has made art more accessible. Artist can teach us about how to make technology more human.'
+    } else if (target.id === 'art'){
+        text.innerHTML = 'Artists explore the emotional and social elements, with innovative thinking, artist can now make art in digital or on paper.'
+    } else if (target.id === 'human'){
+        text.innerHTML = 'The ability to imagine and to take that imagination and make it into reality is one of the things that is really distinctive about humans.'
+    }
+}
 
 function fetchShowData(){
     fetch('../data/content.json')
@@ -36,8 +35,35 @@ function fetchShowData(){
         const showDataDiv = document.getElementById('showData')
         showDataDiv.innerHTML = '';
         jsonData.forEach((info) => {
-            showDataDiv.innerHTML += `<h3>${info.content}</h3>`
+            showDataDiv.innerHTML += `<h3>${info.title}</h3>${info.url}`
         })
     })
 }
 
+function showImage(){
+    const img = document.getElementById('galleryImg')
+    img.classList.add('img')
+    img.src= `../images/${info.img}`
+
+    img.addEventListener('click', () => {
+        for (let i = 0; i < jsonData.length; i++){
+            img.src= `../images/${info.img} + ${id}`
+            img ++
+        }
+    })
+}
+
+function fetchInfo(){
+    fetch('../data/content.json')
+    .then((res) => res.json())
+    .then((jsonData) => {
+        const showDataDiv = document.getElementById('showData')
+        const showImageDiv = document.getElementById('showImage')
+        
+        showDataDiv.innerHTML = '';
+        jsonData.forEach((info) => {
+            showDataDiv.innerHTML += `<h3>${info.title}</h3> ${info.url}`
+            showImageDiv.innerHTML += showImage()
+        })
+    })
+}

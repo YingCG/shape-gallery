@@ -1,45 +1,27 @@
 [
     {
-        "id" : "circle1",
-        "title" : "Human",
-        "content" : "The ability to imagine and to take that imagination and make it into reality is one of the things that is really distinctive about humans.",
-        "svg" : "",
-        "img" : ""
-    },
-    {
-        "id" : "circle2",
-        "title" : "Art",
-        "content" : "Artists explore the emotional and social elements, with innovative thinking, artist can now make art in digital or on paper.",
-        "svg" : "",
-        "img" : ""
-    },
-    {
-        "id" : "circle3",
-        "title" : "Technology",
-        "content" : "Technology is most often used to improve efficiency, it has made art more accessible. Artist can teach us about how to make technology more human. ",
-        "svg" : "",
-        "img" : ""
-    },
-    {
         "id" : "shp01",
         "title" : "",
         "content" : "",
         "svg" : "",
-        "img" : ""
+        "img" : "images/allanKaprow.jpg",
+        "url" : "https://www.wikiart.org/en/allan-kaprow"
     },
     {
         "id" : "shp02",
-        "title" : "",
+        "title" : "Land Art Robert Smithson",
         "content" : "",
         "svg" : "",
-        "img" : ""
+        "img" : "images/Land Art Robert Smithson.jpeg",
+        "url" : "https://milenaolesinska77.medium.com/land-art-robert-smithson-fc4f7cceb344"
     },
     {
         "id" : "shp03",
-        "title" : "",
+        "title" : "PETER FISCHLI DAVID WEISS",
         "content" : "",
         "svg" : "",
-        "img" : ""
+        "img" : "images/Fischli-Weiss_Flirt-Liebe-Leidenschaft-Hass-Trennung_1985_21317_01.jpg",
+        "url" : "https://matthewmarks.com/artists/peter-fischli-david-weiss"
     },
     {
         "id" : "shp04",
@@ -77,3 +59,25 @@
         "img" : ""
     }
 ]
+
+// {
+//     "id" : "circle1",
+//     "title" : "Human",
+//     "content" : "The ability to imagine and to take that imagination and make it into reality is one of the things that is really distinctive about humans.",
+//     "svg" : "",
+//     "img" : ""
+// },
+// {
+//     "id" : "circle2",
+//     "title" : "Art",
+//     "content" : "Artists explore the emotional and social elements, with innovative thinking, artist can now make art in digital or on paper.",
+//     "svg" : "",
+//     "img" : ""
+// },
+// {
+//     "id" : "circle3",
+//     "title" : "Technology",
+//     "content" : "Technology is most often used to improve efficiency, it has made art more accessible. Artist can teach us about how to make technology more human. ",
+//     "svg" : "",
+//     "img" : ""
+// },

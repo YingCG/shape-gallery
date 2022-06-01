@@ -45,6 +45,10 @@ a{
     justify-content: center;
 }
 
+h3{
+    color: #9772FB;
+}
+
 .contact{
     padding: 30px;
     color: #9772FB;
@@ -158,6 +162,7 @@ a{
             justify-items: center;
             padding-left: 30px;
             margin-top: 0px;
+            object-fit: scale-down;
         }
     .case-study{
         display: flex;
