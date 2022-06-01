@@ -1,0 +1,61 @@
+[
+    {
+        "id" : "shp01",
+        "title" : "Allan Kaprow",
+        "content" : "",
+        "svg" : "",
+        "img" : "images/allanKaprow.jpg",
+        "url" : "https://www.wikiart.org/en/allan-kaprow"
+    },
+    {
+        "id" : "shp02",
+        "title" : "Land Art Robert Smithson",
+        "content" : "",
+        "svg" : "",
+        "img" : "images/Land Art Robert Smithson.jpeg",
+        "url" : "https://milenaolesinska77.medium.com/land-art-robert-smithson-fc4f7cceb344"
+    },
+    {
+        "id" : "shp03",
+        "title" : "PETER FISCHLI DAVID WEISS",
+        "content" : "",
+        "svg" : "",
+        "img" : "images/Fischli-Weiss_Flirt-Liebe-Leidenschaft-Hass-Trennung_1985_21317_01.jpg",
+        "url" : "https://matthewmarks.com/artists/peter-fischli-david-weiss"
+    },
+    {
+        "id" : "shp04",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "shp05",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "shp06",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "shp07",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "shp08",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    }
+]
