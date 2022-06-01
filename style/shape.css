@@ -56,17 +56,27 @@
 } */
 #square8{
     background-color: #758086;
-    color: white;
+    color: rgba(255, 255, 255, 0.382);
     font-weight: normal;
 }
 
 .circle{
-    flex-direction: row;
     text-align: center;
     display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #8D8DAA;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-#circle1{
+.circle a{
+    transform: 5;
+}
+/* #circle1{
     background-color: #D0C9C0;
     color: white;
     width: 300px;
@@ -106,7 +116,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 35px;
-}
+} */
 
 
 .circle:hover{
@@ -119,3 +129,4 @@
         transform: scale(2);
     }
 }
+

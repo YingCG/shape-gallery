@@ -1,0 +1,56 @@
+svg {
+    pointer-events: none;
+}
+
+.st1:hover{
+    fill: #D3E4CD;
+}
+.st2:hover{
+    fill: #519259;
+}
+.st3:hover{
+    fill: #FFCC1D;
+}
+.st0:hover{
+    fill: #0B4619;
+}
+
+@media only screen and (max-width: 768px){
+    .gallery{
+        margin-top: 0;
+        padding: 0;
+        /* z-index: -1; */
+    }
+    
+    .shape-gallery{
+        pointer-events: auto;
+        cursor: pointer;
+    }
+    
+}
+@media only screen and (min-width: 769px) and (max-width: 860px){
+    .gallery{
+        margin-top: -20px;
+        padding: 5rem;
+        /* z-index: -1; */
+    }
+    
+    .shape-gallery{
+        pointer-events: auto;
+        cursor: pointer;
+    }
+
+}
+@media only screen and (min-width: 861){
+    .gallery{
+        margin-top: -60px;
+        padding: 8rem;
+        /* z-index: -1; */
+    }
+    
+    .shape-gallery{
+        pointer-events: auto;
+        cursor: pointer;
+    }
+
+}

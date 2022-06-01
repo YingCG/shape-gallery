@@ -1,0 +1,79 @@
+[
+    {
+        "id" : "circle1",
+        "title" : "Human",
+        "content" : "The ability to imagine and to take that imagination and make it into reality is one of the things that is really distinctive about humans.",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "circle2",
+        "title" : "Art",
+        "content" : "Artists explore the emotional and social elements, with innovative thinking, artist can now make art in digital or on paper.",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "circle3",
+        "title" : "Technology",
+        "content" : "Technology is most often used to improve efficiency, it has made art more accessible. Artist can teach us about how to make technology more human. ",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "shp01",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "shp02",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "shp03",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "shp04",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "shp05",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "shp06",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "shp07",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    },
+    {
+        "id" : "shp08",
+        "title" : "",
+        "content" : "",
+        "svg" : "",
+        "img" : ""
+    }
+]

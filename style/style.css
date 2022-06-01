@@ -74,7 +74,7 @@ a{
     align-items: center;
 }
 
-.shape-container{
+/* .shape-container{
         border: black 1px solid;
         position: absolute;
         height: auto;
@@ -84,6 +84,16 @@ a{
         width: 40%;
         padding-left: 30px;
         margin-top: 20px;
+    } */
+.shape-info{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 20px;
+        color: white;
+        /* margin-block-end: 20px; */
     }
     .shape-container a{
         text-decoration-line: none; 
@@ -142,12 +152,10 @@ a{
         align-items: center;
     }
 
-    .shape-container{
-            border: black 1px solid;
+    .shape-info{
             position: absolute;
             height: auto;
             justify-items: center;
-            width: 85%;
             padding-left: 30px;
             margin-top: 0px;
         }
@@ -185,8 +193,7 @@ a{
         width: 40% 60%;
     }
     
-    .shape-container{
-        border: black 1px solid;
+    .shape-info{
         height: auto;
         justify-content: center;
         z-index: 5;
