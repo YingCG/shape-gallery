@@ -25,7 +25,7 @@ body{
 
 a{
     color: #9772FB;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .logos{
@@ -58,7 +58,8 @@ h3{
 
 .info{
     margin-top: 15px;
-    height: 600px;
+    height: 70vh;
+    padding: 1rem;
 }
 
 .home{
@@ -70,6 +71,7 @@ h3{
         width: 50%;
         align-items: center;
         justify-content: center;
+        padding-left: 2rem;
     }
 
 .text-container{
@@ -96,10 +98,9 @@ h3{
         position: absolute;
         justify-content: center;
         justify-items: center;
-        align-items: center;
-        margin: 20px;
         color: white;
-        /* margin-block-end: 20px; */
+        margin: 2rem;
+        padding: 1rem;
     }
     .shape-container a{
         text-decoration-line: none; 
@@ -160,8 +161,6 @@ h3{
         flex-wrap: wrap;
 
     }
-
-    
 
     .shape-info{
             display: block;
@@ -233,7 +232,7 @@ h3{
     }
 }
 
-input{
+/* input{
     border: none;
     width: 100%;
 }
@@ -242,4 +241,14 @@ textarea{
     width: 100%;
     padding: 50px;
     border: none;
+} */
+
+.bottom{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.botton a{
+    margin: 1rem;
+    padding: 0;
 }

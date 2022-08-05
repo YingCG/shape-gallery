@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/shape.css" />
+    <link rel="stylesheet" href="../style/gallery.css" />
+    
     <title>Ying</title>
 </head>
 <body>
@@ -12,32 +15,25 @@
         <a href="../index.html"><img class="logo" src="../images/Journey.svg" alt="logo"></a>
         <a href="../pages/work.html">Work</a>
         <a href="../pages/play.html">Play</a>
-        <a href="../pages/canvas.html">Canvas</a>
+        <a href="pages/canvas.html">Draw Here!!!!</a>
         <a href="../pages/info.html">Info</a>
     </header>
     <div class="info">
-        <div class="column-home">
-
-        <form class="contact" action="">
-            <label>Name: </label> <input type="text" name="name">
-            <br>
-            
-            <label>Email: </label> <input type="email" name="email" required>
-            <br>
-            <br>
-    
-            <label>Message</label> <br>
-            <textarea>
-    
-            </textarea>        
-            <br>
-            <br>
-            <input type="submit" value="submit" class="submit">
-        </form>
+        
+        <div class="shape-info">
+            <div class="circle" id="tech" onclick="showText(event)" >Technology</div>
+            <div class="circle" id="art" onclick="showText(event)" >Art</div>
+            <div class="circle" id="human" onclick="showText(event)" >Human</div>
         </div>
-        <div class="column-home">
-            <img class="infopic" src="../images/curious-earthworm-drawing.jpg" alt="illustration" >
-        </div>
+        <div id="showData"></div>
+        <div id="showImage"></div>         
     </div>
+    <div class="bottom">
+        <h2>Recently i have discover a new galaxy! </h2>
+        <p>where creative are not limit by material or space... where I solve problem with creative thinking... </p>
+        <a href="https://dev-journal-ying.herokuapp.com" alt="git repo">This is a space where I am tracking my growth as a developer.</a>
+    </div>
+    <script src="../js/home.js"></script>
+
 </body>
 </html>
