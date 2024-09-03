@@ -28,6 +28,38 @@ svg {
 .shape-gallery{
     pointer-events: auto;
     cursor: pointer;
+    transition: transform 0.4s ease, fill 0.4s ease;
+}
+/* Style the tab content (and add height:100% for full page content) */
+.shapecontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+
+  #Layer_1 {background-color: red;}
+  #Layer_2 {background-color: green;}
+  #Layer_3 {background-color: blue;}
+  #Layer_4 {background-color: orange;}
+  #Layer_5 {background-color: red;}
+  #Layer_6 {background-color: green;}
+  #Layer_7 {background-color: blue;}
+  #Layer_8 {background-color: orange;}
+
+
+.shape-gallery.shape-pages {
+    transform: scale(1.7);
+    z-index: 1000;
+    /* background-color: yellow;  */
+}
+
+.shape-gallery.shape-pages:active {
+    height: 100%;
+    background: #FFCC1D;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
 }
 
 #showImage img{

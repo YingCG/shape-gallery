@@ -20,7 +20,7 @@ function showText(event){
     let text = document.getElementById("showData")
     let target = event.target
     if(target.id === 'tech'){
-        text.innerHTML = 'Technology is most often used to improve efficiency, it has made art more accessible. Artist can teach us about how to make technology more human.'
+        text.innerHTML = 'Technology is most often used to improve efficiency; it has made art more accessible. Artist can teach us about how to make technology more human. It is an art of solving problems!'
     } else if (target.id === 'art'){
         text.innerHTML = 'Artists explore the emotional and social elements, with innovative thinking, artist can now make art in digital or on paper.'
     } else if (target.id === 'human'){
