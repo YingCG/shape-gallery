@@ -8,14 +8,14 @@ pages.forEach((page) => {
 
     // console.log(page)
     if (page === 'index.html'){
-        menuDiv.innerHTML += `<a href="./pages/${removeSpace}.html">index</a>`
+        menuDiv.innerHTML += `<a href="https://yingcg.github.io/shape-gallery/pages/${removeSpace}.html">index</a>`
     }
 
     if (page === 'Canvas'){
-        menuDiv.innerHTML += `<a href="../pages/${removeSpace}.html">Draw Here!!!</a>`
+        menuDiv.innerHTML += `<a href="https://yingcg.github.io/shape-gallery/pages/${removeSpace}.html">Draw Here!!!</a>`
     }
     else{
-        menuDiv.innerHTML += `<a href="../pages/${removeSpace}.html">${page}</a>`
+        menuDiv.innerHTML += `<a href="https://yingcg.github.io/shape-gallery/pages/${removeSpace}.html">${page}</a>`
     }
     console.log(menuDiv)
 })
