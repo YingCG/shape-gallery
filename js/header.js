@@ -8,14 +8,14 @@ pages.forEach((page) => {
 
     // console.log(page)
     if (page === 'index.html'){
-        menuDiv.innerHTML += `<a href="./pages/${page}.html">index</a>`
+        menuDiv.innerHTML += `<a href="./pages/${removeSpace}.html">index</a>`
     }
 
     if (page === 'Canvas'){
-        menuDiv.innerHTML += `<a href="../pages/${page}.html">Draw Here!!!</a>`
+        menuDiv.innerHTML += `<a href="../pages/${removeSpace}.html">Draw Here!!!</a>`
     }
     else{
-        menuDiv.innerHTML += `<a href="../pages/${page}.html">${removeSpace}</a>`
+        menuDiv.innerHTML += `<a href="../pages/${removeSpace}.html">${removeSpace}</a>`
     }
     console.log(menuDiv)
 })
