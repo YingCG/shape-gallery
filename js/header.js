@@ -4,7 +4,7 @@ const pages = ['Explore','Play', 'Create', 'Canvas','Connect']
 const menuDiv = document.querySelector('.menu')
 
 pages.forEach((page) => {
-    let removeSpace = page.replaceAll(' ','')
+    let removeSpace = page.replaceAll(' ','').toLowerCase()
 
     // console.log(page)
     if (page === 'index.html'){
