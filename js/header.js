@@ -15,7 +15,7 @@ pages.forEach((page) => {
         menuDiv.innerHTML += `<a href="../pages/${removeSpace}.html">Draw Here!!!</a>`
     }
     else{
-        menuDiv.innerHTML += `<a href="../pages/${removeSpace}.html">${removeSpace}</a>`
+        menuDiv.innerHTML += `<a href="../pages/${removeSpace}.html">${page}</a>`
     }
     console.log(menuDiv)
 })
